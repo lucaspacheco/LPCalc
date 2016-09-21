@@ -1,5 +1,18 @@
-@import "https://fonts.googleapis.com/css?family=Inconsolata";
-/* line 12, ../sass/example.scss */
+@import "https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans";
+/* line 11, ../sass/example.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/* line 15, ../sass/example.scss */
+.container {
+  max-width: 1000px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+/* line 20, ../sass/example.scss */
 #ex2 {
   font-family: 'Inconsolata',monospace;
   background-color: #fafafa;
@@ -67,18 +80,18 @@
 #ex2 article, #ex2 aside, #ex2 details, #ex2 figcaption, #ex2 figure, #ex2 footer, #ex2 header, #ex2 hgroup, #ex2 main, #ex2 menu, #ex2 nav, #ex2 section, #ex2 summary {
   display: block;
 }
-/* line 21, ../sass/example.scss */
+/* line 29, ../sass/example.scss */
 #ex2 .val .val-history {
   background-color: #c4c4c4;
   color: #fafafa;
   padding: 0.2em 0.5em;
   min-height: 1.5em;
 }
-/* line 26, ../sass/example.scss */
+/* line 34, ../sass/example.scss */
 #ex2 .val .val-history .op {
   color: #1851ce;
 }
-/* line 30, ../sass/example.scss */
+/* line 38, ../sass/example.scss */
 #ex2 .val #valInput {
   font-family: 'Inconsolata',monospace;
   border: 0;
@@ -100,57 +113,57 @@
 #ex2 .val #valInput::-webkit-input-placeholder {
   color: #444;
 }
-/* line 42, ../sass/example.scss */
+/* line 50, ../sass/example.scss */
 #ex2 .ctrl ul li button {
   font-family: 'Inconsolata',monospace;
   border: 0;
   color: #444;
   border: 2px solid #fafafa;
 }
-/* line 47, ../sass/example.scss */
+/* line 55, ../sass/example.scss */
 #ex2 .ctrl ul li button sup {
   position: absolute;
   margin-top: -0.5em;
   font-size: 0.8em;
   color: #c61800;
 }
-/* line 53, ../sass/example.scss */
+/* line 61, ../sass/example.scss */
 #ex2 .ctrl ul li button:hover, #ex2 .ctrl ul li button:active, #ex2 .ctrl ul li button:focus {
   color: #fafafa;
 }
-/* line 55, ../sass/example.scss */
+/* line 63, ../sass/example.scss */
 #ex2 .ctrl ul li button:hover sup, #ex2 .ctrl ul li button:active sup, #ex2 .ctrl ul li button:focus sup {
   color: #fafafa;
 }
-/* line 64, ../sass/example.scss */
+/* line 72, ../sass/example.scss */
 #ex2 .ctrl ul.ops li button:hover {
   background-color: #769cef;
 }
-/* line 67, ../sass/example.scss */
+/* line 75, ../sass/example.scss */
 #ex2 .ctrl ul.ops li button:active, #ex2 .ctrl ul.ops li button:focus {
   background-color: #1851ce;
 }
-/* line 73, ../sass/example.scss */
+/* line 81, ../sass/example.scss */
 #ex2 .ctrl ul.ops li.clr button:hover {
   background-color: #ff5d47;
 }
-/* line 76, ../sass/example.scss */
+/* line 84, ../sass/example.scss */
 #ex2 .ctrl ul.ops li.clr button:active, #ex2 .ctrl ul.ops li.clr button:focus {
   background-color: #c61800;
 }
-/* line 83, ../sass/example.scss */
+/* line 91, ../sass/example.scss */
 #ex2 .ctrl ul.ops li.res button:hover {
   background-color: #88df8d;
 }
-/* line 86, ../sass/example.scss */
+/* line 94, ../sass/example.scss */
 #ex2 .ctrl ul.ops li.res button:hover, #ex2 .ctrl ul.ops li.res button:focus {
   background-color: #31b639;
 }
-/* line 96, ../sass/example.scss */
+/* line 104, ../sass/example.scss */
 #ex2 .ctrl ul.numPad li button:hover {
   background-color: #ffdb3d;
 }
-/* line 99, ../sass/example.scss */
+/* line 107, ../sass/example.scss */
 #ex2 .ctrl ul.numPad li button:active, #ex2 .ctrl ul.numPad li button:focus {
   background-color: #ffcf00;
 }
